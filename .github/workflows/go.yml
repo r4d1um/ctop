@@ -26,3 +26,7 @@ jobs:
 
     - name: Build
       run: go build -v .
+    - uses: actions/upload-artifact@master
+      with:
+        name: CTOP
+        path: CTOP
